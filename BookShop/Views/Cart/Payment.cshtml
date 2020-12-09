@@ -1,0 +1,70 @@
+﻿@model List<BookShop.Models.CartItem>
+@{
+    ViewBag.Title = "Thanh toán";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+  <div class="container">
+      <h1> Sách trong giỏ hàng </h1>
+            <div class="section group">
+                @if (Model.Count > 0)
+                {
+                    <table style="width:850px;" class="data-table">
+
+
+        <tr>
+            <td class="header-table">Mã SP</td>
+            <td class="header-table">Hình ảnh</td>
+            <td class="header-table">Tên sách</td>
+            <td class="header-table">Giá</td>
+            <td class="header-table">Số lượng</td>
+            <td class="header-table">Thành tiền</td>
+            @*<td class="header-table">Gỡ bỏ</td>*@
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td class="content-table">@item.Book.ID</td>
+                <td class="content-table"><a href="#"><img style="height:150px;" src="@item.Book.Images" alt="" /></a></td>
+                <td class="content-table">@item.Book.Name</td>
+                <td class="content-table"><span class="price">@item.Book.Price.GetValueOrDefault(0)</span></td>
+                <td class="content-table"><input type="text" class="txtquantity" data-id="@item.Book.ID" value="@item.Quantity" /></td>
+                <td class="content-table"><span class="price">@(item.Book.Price.GetValueOrDefault(0) * item.Quantity)</span></td>
+                <td> <a href="#" data-id="@item.Book.ID" class="btnDelete" style=" background: #1C8D96; font-size: large">Xóa</a></td>
+            </tr>
+        }
+
+    </table>
+                }
+            </div>
+            <div class="section group">
+                <div class="col-md-6">
+
+                    @using (Html.BeginForm("Payment", "Cart", FormMethod.Post))
+                    {
+
+                        <div class="form-group">
+                            <label>Người nhận: </label>
+                            <input name="shipname" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label>Điện thoại: </label>
+                            <input name="mobile" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label>Địa chỉ: </label>
+                            <input name="address" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label>Ngày mua: </label>
+                            <input type="text" name="ngaymua" class="form-control" value="@ViewBag.ngaymua" />
+                        </div>
+                        <div class="form-group">
+                            <label>Tổng tiền: </label>
+                            <input name="tongtien" class="form-control" value="@ViewBag.tongtien" />
+                        </div>
+                        <button type="submit" class="btn">Gửi đơn hàng</button>
+                    }
+                </div>
+            </div>
+        </div>
+

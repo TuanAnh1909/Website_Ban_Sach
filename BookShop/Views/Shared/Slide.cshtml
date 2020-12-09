@@ -1,0 +1,12 @@
+﻿@model List<Model.EF.Slide>
+<div id="slider-holder">
+    <ul>
+        @foreach (var item in Model) //lặp slide
+        {
+
+            <li><a href="@item.Link"><img src="@item.Images" alt="" /></a></li>
+
+        }
+
+    </ul>
+</div>

@@ -1,0 +1,210 @@
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\BookShop.dll.config
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\BookShop.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\BookShop.pdb
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Antlr3.Runtime.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\EntityFramework.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\EntityFramework.SqlServer.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Microsoft.Owin.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Microsoft.Owin.Security.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Microsoft.Owin.Security.Google.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Microsoft.Web.Infrastructure.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Model.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Newtonsoft.Json.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Owin.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\System.Web.Helpers.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\System.Web.Mvc.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\System.Web.Optimization.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\System.Web.Razor.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\System.Web.WebPages.Deployment.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\System.Web.WebPages.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\System.Web.WebPages.Razor.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\WebGrease.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Model.pdb
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\System.Web.Helpers.xml
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\System.Web.Mvc.xml
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\System.Web.Optimization.xml
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\System.Web.Razor.xml
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\System.Web.WebPages.xml
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\System.Web.WebPages.Deployment.xml
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\System.Web.WebPages.Razor.xml
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Newtonsoft.Json.xml
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Antlr3.Runtime.pdb
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\EntityFramework.xml
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\EntityFramework.SqlServer.xml
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Microsoft.Owin.xml
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Microsoft.Owin.Security.xml
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Microsoft.Owin.Security.Google.xml
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\obj\Debug\BookShop.csprojResolveAssemblyReference.cache
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\obj\Debug\BookShop.dll
+c:\users\ngato\onedrive\documents\visual studio 2013\Projects\BookShop\BookShop\obj\Debug\BookShop.pdb
+C:\Users\ngato\OneDrive\Documents\Visual Studio 2013\Projects\BookShop\BookShop\bin\PagedList.dll
+C:\Users\ngato\OneDrive\Documents\Visual Studio 2013\Projects\BookShop\BookShop\bin\PagedList.Mvc.dll
+C:\Users\ngato\OneDrive\Documents\Visual Studio 2013\Projects\BookShop\BookShop\bin\PagedList.xml
+C:\Users\ngato\OneDrive\Documents\Visual Studio 2013\Projects\BookShop\BookShop\bin\PagedList.Mvc.xml
+C:\Users\ngato\OneDrive\Documents\Visual Studio 2013\Projects\BookShop\BookShop\bin\CKFinder.pdb
+C:\Users\ngato\OneDrive\Documents\Visual Studio 2013\Projects\BookShop\BookShop\bin\CKFinder.dll
+C:\Users\ngato\OneDrive\Documents\Visual Studio 2013\Projects\BookShop\BookShop\bin\CKFinder_FileEditor.dll
+C:\Users\ngato\OneDrive\Documents\Visual Studio 2013\Projects\BookShop\BookShop\bin\CKFinder_ImageResize.dll
+C:\Users\ngato\OneDrive\Documents\Visual Studio 2013\Projects\BookShop\BookShop\bin\CKFinder_Watermark.dll
+C:\Users\ngato\OneDrive\Documents\Visual Studio 2013\Projects\BookShop\BookShop\bin\CKFinder_FileEditor.pdb
+C:\Users\ngato\OneDrive\Documents\Visual Studio 2013\Projects\BookShop\BookShop\bin\CKFinder_ImageResize.pdb
+C:\Users\ngato\OneDrive\Documents\Visual Studio 2013\Projects\BookShop\BookShop\bin\CKFinder_Watermark.pdb
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\BookShop.dll.config
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\BookShop.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\BookShop.pdb
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Antlr3.Runtime.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\CKFinder.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\CKFinder_FileEditor.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\CKFinder_ImageResize.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\CKFinder_Watermark.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\EntityFramework.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\EntityFramework.SqlServer.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Security.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Security.Google.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Microsoft.Web.Infrastructure.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Model.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Newtonsoft.Json.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Owin.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\PagedList.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\PagedList.Mvc.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\System.Web.Helpers.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\System.Web.Mvc.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\System.Web.Optimization.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\System.Web.Razor.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\System.Web.WebPages.Deployment.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\System.Web.WebPages.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\System.Web.WebPages.Razor.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\WebGrease.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Model.pdb
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\CKFinder.pdb
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\CKFinder_FileEditor.pdb
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\CKFinder_ImageResize.pdb
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\CKFinder_Watermark.pdb
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\PagedList.xml
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\PagedList.Mvc.xml
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\System.Web.Helpers.xml
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\System.Web.Mvc.xml
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\System.Web.Optimization.xml
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\System.Web.Razor.xml
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\System.Web.WebPages.xml
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\System.Web.WebPages.Deployment.xml
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\System.Web.WebPages.Razor.xml
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Newtonsoft.Json.xml
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Antlr3.Runtime.pdb
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\EntityFramework.xml
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\EntityFramework.SqlServer.xml
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.xml
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Security.xml
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Security.Google.xml
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\obj\Debug\BookShop.csprojResolveAssemblyReference.cache
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\obj\Debug\BookShop.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\BookShop\obj\Debug\BookShop.pdb
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\BookShop.dll.config
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\BookShop.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\BookShop.pdb
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Antlr3.Runtime.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\CKFinder.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\CKFinder_FileEditor.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\CKFinder_ImageResize.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\CKFinder_Watermark.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\EntityFramework.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\EntityFramework.SqlServer.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Microsoft.AspNet.Identity.Core.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Security.Cookies.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Security.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Security.Facebook.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Security.Google.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Security.OAuth.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Security.Twitter.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Microsoft.Web.Infrastructure.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Model.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Newtonsoft.Json.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Owin.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\PagedList.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\PagedList.Mvc.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\System.Web.Helpers.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\System.Web.Mvc.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\System.Web.Optimization.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\System.Web.Razor.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\System.Web.WebPages.Deployment.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\System.Web.WebPages.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\System.Web.WebPages.Razor.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\WebGrease.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Model.pdb
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Model.dll.config
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\CKFinder.pdb
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\CKFinder_FileEditor.pdb
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\CKFinder_ImageResize.pdb
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\CKFinder_Watermark.pdb
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\PagedList.xml
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\PagedList.Mvc.xml
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\System.Web.Helpers.xml
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\System.Web.Mvc.xml
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\System.Web.Optimization.xml
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\System.Web.Razor.xml
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\System.Web.WebPages.xml
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\System.Web.WebPages.Deployment.xml
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\System.Web.WebPages.Razor.xml
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Newtonsoft.Json.xml
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Antlr3.Runtime.pdb
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\EntityFramework.xml
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\EntityFramework.SqlServer.xml
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Microsoft.AspNet.Identity.Core.xml
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.xml
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Security.xml
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Security.Facebook.xml
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Security.Cookies.xml
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Security.OAuth.xml
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Security.Google.xml
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Security.Twitter.xml
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\obj\Debug\BookShop.csprojAssemblyReference.cache
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\obj\Debug\BookShop.csproj.CoreCompileInputs.cache
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\obj\Debug\BookShop.csproj.CopyComplete
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\obj\Debug\BookShop.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\BookShop\obj\Debug\BookShop.pdb

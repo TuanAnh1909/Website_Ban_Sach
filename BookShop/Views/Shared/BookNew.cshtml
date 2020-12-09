@@ -1,0 +1,37 @@
+﻿@model List<Model.EF.Book>
+
+<ul>
+
+    @foreach (var item in Model)
+    {
+        var url = "/chi-tiet/" + item.MetaTitle + "-" + item.ID;
+         <li>
+        <div class="product-image">
+            <a href="@url"><img src="@item.Images" alt="@item.Name" /></a>
+
+        </div>
+        <div class="product-info">
+            <div class="product-name">
+                <h3>
+                    <i class="fa fa-bookmark" aria-hidden="true"></i>
+                    @item.Name
+                </h3>
+            </div>
+            <div class="product-price">
+                <h3>
+                    <i class="fa fa-usd" aria-hidden="true"></i>
+                    @(item.Price.HasValue? item.Price.Value.ToString("N0"):"Liên hệ")
+                </h3>
+            </div>
+            <a href="/them-gio-hang?bookId=@item.ID&quantity=1">
+                <div class="product-action">
+                    <i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i>
+                    <div class="text-cart">Thêm vào giỏ</div>
+                </div>
+            </a>
+        </div>
+    </li>
+    }
+   
+
+</ul>

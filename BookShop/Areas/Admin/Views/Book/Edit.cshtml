@@ -1,0 +1,135 @@
+﻿@model Model.EF.Book
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<link href="/Assets/Admin/dist/css/style-admin.css" rel="stylesheet" />
+
+@section header{
+    Chỉnh sửa thông tin sách
+}
+@section jsFooter{
+<script src="~/Assets/Admin/js/plugins/ckfinder/ckfinder.js"></script>
+<script src="~/Assets/Admin/js/plugins/ckfinder/plugins/dummy/plugin.js"></script>
+<script src="~/Assets/Admin/js/plugins/ckfinder/plugins/imageresize/plugin.js"></script>
+<script src="~/Assets/Admin/js/plugins/ckfinder/plugins/fileeditor/plugin.js"></script>
+<script type="text/javascript">
+    function Click_BrowseServer() {
+        var finder = new CKFinder();
+        //finder.basePath = '../';
+        finder.selectActionFunction = SetFileField;
+        finder.popup();
+    }
+    function SetFileField(fileUrl) {
+        $('#inpImage').val(fileUrl);
+    }
+    $('#btnUpload').click(function () {
+        Click_BrowseServer();
+    });
+</script>
+
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-body">
+              
+                   
+                        @using (Html.BeginForm("Edit", "Book", FormMethod.Post))
+                        {
+
+                            @Html.ValidationSummary(true)
+                        <div id="tab1" class="tabcontent">
+
+                                <div class="form">
+
+                                    <div class="form_row">
+                                        <label>Tên Sách:</label>
+                                        @Html.EditorFor(model => model.Name, new { @class = "form_input" })
+                                        @*<div class="error">@ViewBag.msg_err</div>*@
+                                        <span>
+                                            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "error" })
+                                        </span>
+
+                                    </div>
+
+
+                                    <div class="form_row">
+
+
+                                        @Html.LabelFor(model => model.Images, new { @class = "control-label col-md-2" })
+                                        <a href="#" id="btnUpload" class="btn btn-primary">Load</a>
+                                        <input id="inpImage" type="text" name="Images"  value="@Model.Images"/>
+                                        <span>@Html.ValidationMessageFor(model => model.Images, "", new { @class = "error" })</span>
+                                    </div>
+                                    <div class="form_row">
+                                        <label>Số lượng còn:</label>
+                                        @Html.EditorFor(model => model.Quantity, new { @class = "form_input" })
+                                        <span>@Html.ValidationMessageFor(model => model.Quantity, "", new { @class = "error" })</span>
+                                    </div>
+
+                                    <div class="form_row">
+                                        <label>Đơn giá:</label>
+                                        @Html.EditorFor(model => model.Price, new { @class = "form_input" })
+                                        <span>@Html.ValidationMessageFor(model => model.Price, "", new { @class = "error" })</span>
+                                    </div>
+
+                                    <div class="form_row">
+                                        <label>Giá KM:</label>
+                                       @Html.EditorFor(model => model.PromotionPrice, new { @class = "form_input" })
+                                        <span>@Html.ValidationMessageFor(model => model.PromotionPrice, "", new { @class = "error" })</span>
+                                    </div>
+
+
+                                    <div class="form_row">
+                                        <label>Tên danh mục:</label>
+                                        @Html.DropDownListFor(model => model.CategoryID, null, new { @class = "form_input" })
+                                    </div>
+
+                                    <div class="form_row">
+                                        <label>Tên tác giả:</label>
+                                        @Html.DropDownListFor(model => model.AuthorID, null, new { @class = "form_input" })
+
+                                    </div>
+
+                                    <div class="form_row">
+                                        <label>Tên NXB:</label>
+                                        @Html.DropDownListFor(model => model.ProcderID, null, new { @class = "form_input" })
+                                    </div>
+                                    <div class="form_row">
+                                        <label>Ngày lập:</label>
+                                        @Html.EditorFor(model => model.CreateDate, new { @class = "form_input" })
+                                        <span>@Html.ValidationMessageFor(model => model.CreateDate, "", new { @class = "error" })</span>
+                                    </div>
+
+                                    <div class="form_row">
+                                        <label>Trạng thái:</label>
+                                      @Html.EditorFor(model => model.status, new { @class = "form_input" })
+                                        <span>@Html.ValidationMessageFor(model => model.status, "", new { @class = "error" })</span>
+                                    </div>
+
+                                    <div class="form_row">
+                                        <label>Mô tả:</label>
+                                        @Html.TextAreaFor(model => model.Discriptions, new { @class = "form_textarea" })
+                                        <span>@Html.ValidationMessageFor(model => model.Discriptions, "", new { @class = "error" })</span>
+                                    </div>
+
+
+                                    <div id="btn-submit">
+                                        <input type="submit" class="form_submit" value="Cập nhật" />
+                                    </div>
+
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+
+
+
+

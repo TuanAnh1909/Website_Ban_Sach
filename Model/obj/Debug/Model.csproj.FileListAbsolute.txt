@@ -1,0 +1,45 @@
+c:\Users\ngato\OneDrive\documents\visual studio 2013\Projects\BookShop\Model\bin\Debug\Model.dll.config
+c:\Users\ngato\OneDrive\documents\visual studio 2013\Projects\BookShop\Model\bin\Debug\Model.dll
+c:\Users\ngato\OneDrive\documents\visual studio 2013\Projects\BookShop\Model\bin\Debug\Model.pdb
+c:\Users\ngato\OneDrive\documents\visual studio 2013\Projects\BookShop\Model\bin\Debug\EntityFramework.dll
+c:\Users\ngato\OneDrive\documents\visual studio 2013\Projects\BookShop\Model\bin\Debug\EntityFramework.SqlServer.dll
+c:\Users\ngato\OneDrive\documents\visual studio 2013\Projects\BookShop\Model\bin\Debug\EntityFramework.xml
+c:\Users\ngato\OneDrive\documents\visual studio 2013\Projects\BookShop\Model\bin\Debug\EntityFramework.SqlServer.xml
+c:\Users\ngato\OneDrive\documents\visual studio 2013\Projects\BookShop\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+c:\Users\ngato\OneDrive\documents\visual studio 2013\Projects\BookShop\Model\obj\Debug\Model.dll
+c:\Users\ngato\OneDrive\documents\visual studio 2013\Projects\BookShop\Model\obj\Debug\Model.pdb
+C:\Users\ngato\OneDrive\Documents\Visual Studio 2013\Projects\BookShop\Model\bin\Debug\PagedList.dll
+C:\Users\ngato\OneDrive\Documents\Visual Studio 2013\Projects\BookShop\Model\bin\Debug\PagedList.Mvc.dll
+C:\Users\ngato\OneDrive\Documents\Visual Studio 2013\Projects\BookShop\Model\bin\Debug\PagedList.xml
+C:\Users\ngato\OneDrive\Documents\Visual Studio 2013\Projects\BookShop\Model\bin\Debug\PagedList.Mvc.xml
+C:\Users\ngato\OneDrive\Documents\Visual Studio 2013\Projects\BookShop\Model\bin\Debug\CKFinder.pdb
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\Model\bin\Debug\Model.dll.config
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\Model\bin\Debug\Model.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\Model\bin\Debug\Model.pdb
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\Model\bin\Debug\EntityFramework.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\Model\bin\Debug\PagedList.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\Model\bin\Debug\PagedList.Mvc.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\Model\bin\Debug\EntityFramework.xml
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\Model\bin\Debug\PagedList.xml
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\Model\bin\Debug\PagedList.Mvc.xml
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\Model\obj\Debug\Model.dll
+E:\Project test\BTL_CNWeb_Nga\website-ban-sach\BookShop\Model\obj\Debug\Model.pdb
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\Model\bin\Debug\Model.dll.config
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\Model\bin\Debug\Model.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\Model\bin\Debug\Model.pdb
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\Model\bin\Debug\EntityFramework.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\Model\bin\Debug\PagedList.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\Model\bin\Debug\PagedList.Mvc.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\Model\bin\Debug\EntityFramework.xml
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\Model\bin\Debug\PagedList.xml
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\Model\bin\Debug\PagedList.Mvc.xml
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\Model\obj\Debug\Model.csprojAssemblyReference.cache
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\Model\obj\Debug\Model.csproj.CopyComplete
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\Model\obj\Debug\Model.dll
+E:\LapTrinhWeb\ASP\website-ban-sach\BookShop\Model\obj\Debug\Model.pdb

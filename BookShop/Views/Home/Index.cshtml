@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewBag.Title = "Trang chủ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    
+}
+
+<div id="content">
+
+    <!-- Content Slider -->
+    <div id="slider" class="box">
+        
+           @{Html.RenderAction("Slide", "Home");}
+            
+        
+        <div id="slider-nav">
+            <a href="#" class="active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+        </div>
+    </div>
+    <!-- End Content Slider -->
+    <!-- Products -->
+    <div class="products">
+        <div class="products-titlebox">
+            <div class="products-titlebox-left">
+                <h2>
+                    <i class="fa fa-book" aria-hidden="true"></i>
+                    SÁCH Mới Nhất
+                </h2>
+            </div>
+            <div class="products-titlebox-right"><a href="#"><h2>>> Xem thêm </h2></a></div>
+        </div>
+
+       @{Html.RenderAction("BookNew", "Home");}
+        <div class="cl">&nbsp;
+        </div>
+        <!--></-->
+        <div class="products-titlebox">
+            <div class="products-titlebox-left">
+                <h2>
+                    
+                    
+                </h2>
+            </div>
+            
+        </div>
+        <div class="products-2">
+            
+            @{Html.RenderAction("BookTop", "Home");}
+            <div class="cl">&nbsp;</div>
+        </div>
+    </div>
+    <!-- End Products -->
+    <div class="p_space"></div>
+</div>

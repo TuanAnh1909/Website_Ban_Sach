@@ -1,0 +1,11 @@
+﻿@model List<Model.EF.BookCategory>
+
+    
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li><a href="/san-pham/@item.MetaTitle-@item.ID">@item.Name</a></li>
+        }
+        
+       
+    </ul>

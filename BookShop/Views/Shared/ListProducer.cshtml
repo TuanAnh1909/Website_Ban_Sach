@@ -1,0 +1,8 @@
+﻿@model List<Model.EF.Producer>
+<ul>
+    @foreach (var item in Model)
+    {
+        <li><a href="/san-pham/@item.Metatitle-@item.ID">@item.Name</a></li>
+    }
+    
+</ul>

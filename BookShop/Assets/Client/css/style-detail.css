@@ -1,0 +1,26 @@
+.title-book{height: 38px;width: 835px;background:#ebfbfc;color:black;margin-top:15px;border-radius:15px;line-height:35px;padding-left:15px;font-size:16px;}
+
+
+.center{width:200px;padding-left:50px;}
+.detail-image{float:left; min-height:2px;margin-left:30px;margin-top:31px;}
+.product-image1{height:265px;width:210px;}
+.product-image1 img{padding:6px;}
+.detail-image ul{position: relative;margin-bottom: 20px;line-height: 1;border: 1px solid #ddd;height:50px;}
+.detail-image ul li{padding: 2px;display:inline;height:50px;}
+.detail-info{float:right;width:517px;padding:38px;}
+.detail-status{height:40px;width:136px;float:right;}
+.product_name{height:40px;width:300px;}
+.product_name input{height:35px;width:40px;text-align:center}
+a{text-decoration: none;}
+.other{float:right;width:800px;}
+.noidung{height:auto;width:835px;float:left;padding-left:30px;    padding-top: 50px;}
+
+
+span.price{
+    color: #FFFFFF;
+    padding-right: 55px;
+}
+span.reduce{
+color:#999999;
+text-decoration:line-through;
+}

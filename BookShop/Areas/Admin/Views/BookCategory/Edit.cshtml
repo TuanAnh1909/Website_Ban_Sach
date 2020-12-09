@@ -1,0 +1,78 @@
+﻿@model Model.EF.BookCategory
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@section header{
+    Chỉnh sửa danh mục
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-body">
+
+
+                @using (Html.BeginForm("Edit", "BookCategory", FormMethod.Post))
+                {
+
+                    @Html.ValidationSummary(true)
+                    <div id="tab1" class="tabcontent">
+
+                        <div class="form">
+
+                            <div class="form_row">
+                                <label>Tên Sách:</label>
+                                @Html.EditorFor(model => model.Name, new { @class = "form_input" })
+                                @*<div class="error">@ViewBag.msg_err</div>*@
+                                <span>
+                                    @Html.ValidationMessageFor(model => model.Name, "", new { @class = "error" })
+                                </span>
+
+                            </div>
+
+
+                            <div class="form_row">
+                                <label>Thẻ Title:</label>
+                                @Html.EditorFor(model => model.MetaTitle, new { @class = "form_input" })
+                                @*<div class="error">@ViewBag.msg_err</div>*@
+                                <span>
+                                    @Html.ValidationMessageFor(model => model.MetaTitle, "", new { @class = "error" })
+                                </span>
+
+                            </div>
+
+                            <div class="form_row">
+                                <label>Ngày lập:</label>
+                                @Html.EditorFor(model => model.CreateDate, new { @class = "form_input" })
+                                <span>@Html.ValidationMessageFor(model => model.CreateDate, "", new { @class = "error" })</span>
+                            </div>
+
+                            <div class="form_row">
+                                <label>Trạng thái:</label>
+                                @Html.EditorFor(model => model.status, new { @class = "form_input" })
+                                <span>@Html.ValidationMessageFor(model => model.status, "", new { @class = "error" })</span>
+                            </div>
+
+                            <div class="form_row">
+                                <label>Show On Home:</label>
+                                @Html.EditorFor(model => model.ShowOnHome, new { @class = "form_input" })
+                                <span>@Html.ValidationMessageFor(model => model.ShowOnHome, "", new { @class = "error" })</span>
+                            </div>
+
+
+                            <div id="btn-submit">
+                                <input type="submit" class="form_submit" value="Cập nhật" />
+                            </div>
+
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+

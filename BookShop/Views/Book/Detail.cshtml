@@ -1,0 +1,146 @@
+﻿@model Model.EF.Book
+@{
+    ViewBag.Title = "Detail- Book";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var category = (Model.EF.BookCategory)ViewBag.Category;
+    var relatedbook=(List<Model.EF.Book>)ViewBag.RelatedBook;
+}
+
+
+<!-- Content -->
+
+    @*<div class="link"><a href="/">Trang chủ</a> / <a href="/san-pham/@category.MetaTitle-@category.ID">@category.Name</a></div>*@
+    <div class="title-book">
+        <i class="fa fa-tags" aria-hidden="true">@Model.Name</i>
+    </div>
+    <div class="detail-image">
+        <div class="product-image1">
+            <img src="@Model.Images" alt="" />
+        </div>
+        @*<ul>
+            <li><a href="#"><img src="@Model.Images" alt="" /></a></li>
+
+        </ul>*@
+    </div>
+    <div class="detail-info">
+        <div class="product_name"><h3><i class="fa fa-hand-o-right" aria-hidden="true"></i> Tác giả : @Model.Author.Name </h3></div>
+        @*@foreach(var item in Model)
+        {
+            string tinhtrang;
+            if (@Model.Quantity > 0)
+            {
+                 tinhtrang= "Còn hàng";
+
+            }
+            else
+            {
+                tinhtrang = "Hết hàng";
+            }
+             <div class="product_name"><h3><i class="fa fa-hand-o-right" aria-hidden="true"></i> Tình trạng :@tinhtrang</h3></div>
+        }*@
+           
+       
+        <div class="product-price-2">
+           
+                <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                @if(Model.Price!=null)
+                {
+                    if (Model.PromotionPrice == null)
+                    {
+                    
+                    <label>Giá: </label><span class="price">@Model.Price</span>
+                    <span class="reduce">@(Model.Price.HasValue ? Model.Price.Value.ToString("NO") : "Liên hệ")</span>
+                   
+                    }
+                    else if(Model.PromotionPrice != null)
+                    {
+                     <h3>
+                    GIÁ : <span class="reduce">@Model.Price</span><span class="price">@(Model.PromotionPrice.HasValue? Model.PromotionPrice.Value.ToString("NO"):"Liên hệ")</span>
+                    </h3>
+                    }
+                
+                }
+                else { 
+                     <h3>Sản phẩm chưa có giá</h3>
+                    <a>
+                      <span class="reduce">@(Model.PromotionPrice.HasValue ? Model.PromotionPrice.Value.ToString("NO") : "Liên hệ")</span>
+
+                    </a>
+                    
+                }
+                
+        </div>
+        <div class="product_name">
+            
+                <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+               <h3> Số lượng :  <input type="tel" name="soluong" id="soluong" value="@Model.Quantity" /></h3>
+        </div>
+        <div class="p_space"></div>
+        <a href="/them-gio-hang?bookId=@Model.ID&quantity=1">
+            <div class="product-action">
+                <i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i>
+                <div class="text-cart">Thêm vào giỏ</div>
+            </div>
+        </a>
+    </div>
+    <div class="noidung">
+        <i class="fa fa-tag" aria-hidden="true" style="p"></i>
+        <h>@Model.Discriptions</h>
+    </div>
+    <!-- Có thể bạn quan tâm -->
+    <div class="other">
+        <div class="products-titlebox">
+            <div class="products-titlebox-left"><h2>CÓ THỂ BẠN QUAN TÂM</h2></div>
+            <div class="products-titlebox-right"><a href="#"><h2>>> Xem thêm </h2></a></div>
+        </div>
+        <!-- Products -->
+        <div class="products">
+            <ul>
+                @*<div class="p_space"></div>*@
+                @foreach (var item in relatedbook)
+                {
+                    var url = "/chi-tiet/" + item.MetaTitle + "-" + item.ID;
+                     <li>
+                    <div class="product-image">
+                        <a href="@url"><img src="@item.Images" alt="@item.Name" /></a>
+
+                    </div>
+                    <div class="product-info">
+                        <div class="product-name">
+                            <h3>
+                                <i class="fa fa-bookmark" aria-hidden="true"></i>
+                                @item.Name
+                            </h3>
+                        </div>
+                        <div class="product-price">
+                            <h3>
+                                <i class="fa fa-usd" aria-hidden="true"></i>
+                                @item.Price
+                            </h3>
+                        </div>
+                        <a href="/them-gio-hang?bookId=@Model.ID&quantity=1">
+                            <div class="product-action">
+                                <i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i>
+                                <div class="text-cart">Thêm vào giỏ</div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                }
+               
+               
+            </ul>
+            <div class="cl">&nbsp;</div>
+        </div>
+    </div>
+
+    <div class="p_space"></div>
+
+
+<!-- Sidebar -->
+
+
+<!-- End Sidebar -->c
+
+
+	

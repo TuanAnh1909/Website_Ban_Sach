@@ -1,0 +1,106 @@
+﻿@model Model.EF.About
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@section header{
+    Chỉnh sửa quảng cáo
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-lg-6">
+                        @using (Html.BeginForm("Edit", "About", FormMethod.Post))
+                        {
+
+                            @Html.ValidationSummary(true)
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Name, new { @class = "control-label col-md-3" })
+                                <div class="col-md-10">
+                                    @Html.TextBoxFor(model => model.Name)
+                                    @Html.ValidationMessageFor(model => model.Name)
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.MetaTitle, new { @class = "control-label col-md-3" })
+                                <div class="col-md-10">
+                                    @Html.PasswordFor(model => model.MetaTitle)
+                                    @Html.ValidationMessageFor(model => model.MetaTitle)
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Discriptions, new { @class = "control-label col-md-3" })
+                                <div class="col-md-10">
+                                    @Html.TextBoxFor(model => model.Discriptions)
+                                    @Html.ValidationMessageFor(model => model.Discriptions)
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Images, new { @class = "control-label col-md-3" })
+                                <div class="col-md-10">
+                                    @Html.TextBoxFor(model => model.Images)
+                                    @Html.ValidationMessageFor(model => model.Images)
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Detail, new { @class = "control-label col-md-3" })
+                                <div class="col-md-10">
+                                    @Html.TextBoxFor(model => model.Detail)
+                                    @Html.ValidationMessageFor(model => model.Detail)
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.CreateBy, new { @class = "control-label col-md-3" })
+                                <div class="col-md-10">
+                                    @Html.TextBoxFor(model => model.CreateBy)
+                                    @Html.ValidationMessageFor(model => model.CreateBy)
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.ModifiedBy, new { @class = "control-label col-md-3" })
+                                <div class="col-md-10">
+                                    @Html.TextBoxFor(model => model.ModifiedBy)
+                                    @Html.ValidationMessageFor(model => model.ModifiedBy)
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.MetaKeyword, new { @class = "control-label col-md-3" })
+                                <div class="col-md-10">
+                                    @Html.TextBoxFor(model => model.MetaKeyword)
+                                    @Html.ValidationMessageFor(model => model.MetaKeyword)
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.MetaDiscriptions, new { @class = "control-label col-md-3" })
+                                <div class="col-md-10">
+                                    @Html.TextBoxFor(model => model.MetaDiscriptions)
+                                    @Html.ValidationMessageFor(model => model.MetaDiscriptions)
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-offset-2 col-md-10">
+                                    <input type="submit" value="Cập nhật" class="btn btn-default" />
+                                </div>
+                            </div>
+
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

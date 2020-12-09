@@ -1,0 +1,58 @@
+﻿@model List<Model.EF.Book>
+@{
+    var category = (Model.EF.BookCategory)ViewBag.Category;
+    ViewBag.Title = category.Name;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="products">
+    <div class="products-titlebox">
+        <div class="products-titlebox-left">
+            <h2>
+                <i class="fa fa-book" aria-hidden="true"></i>
+                @category.Name
+                
+        </h2>
+    </div>
+    <div class="products-titlebox-right"><a href="#"><h2>>> Xem thêm </h2></a></div>
+</div>
+<ul>
+
+    <div class="p_space"></div>
+    @foreach (var item in Model)
+    {
+        var link = "/chi-tiet/" + item.MetaTitle + "-" + item.ID;
+        <li>
+            <div class="product-image">
+                <a href="@link"><img src="@item.Images" alt="" /></a>
+
+            </div>
+            <div class="product-info">
+                <div class="product-name">
+                    <h3>
+                        <i class="fa fa-bookmark" aria-hidden="true"></i>
+                        @item.Name
+                    </h3>
+                </div>
+                <div class="product-price">
+                    <h3>
+                        <i class="fa fa-usd" aria-hidden="true"></i>
+                        @item.Price
+                    </h3>
+                </div>
+                <a href="/them-gio-hang?bookId=@item.ID&quantity=1">
+                    <div class="product-action">
+                        <i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i>
+                        <div class="text-cart">Thêm vào giỏ</div>
+                    </div>
+                </a>
+            </div>
+        </li>
+    }
+
+
+
+</ul>
+    </div>
+
+<!-- End Sidebar -->

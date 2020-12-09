@@ -1,0 +1,104 @@
+﻿
+<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+  
+    <!-- /.navbar-header -->
+    <ul class="nav navbar-top-links navbar-right">
+       
+        <li class="dropdown open">
+           
+            @*<ul class="dropdown-menu dropdown-user">*@
+                <li class="divider"></li>
+                <li>
+                    @Html.ActionLink("Logout", "Logout", "Login")
+                    @*<a href="login.html"><i class="fa fa-sign-out fa-fw"></i> </a>*@
+                </li>
+            @*</ul>*@
+            <!-- /.dropdown-user -->
+        </li>
+        <!-- /.dropdown -->
+    </ul>
+    <!-- /.navbar-top-links -->
+    <div class="navbar-default sidebar" role="navigation">
+        <div class="sidebar-nav navbar-collapse">
+            <ul class="nav" id="side-menu">
+                <li class="sidebar-search">
+                    <div class="input-group custom-search-form">
+                        <input type="text" class="form-control" placeholder="Search." />
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </span>
+                    </div>
+                    <!-- /input-group -->
+                </li>
+              
+                    <li>
+                        <a href="/Admin/Home/index"><i class="fa fa-dashboard fa-fw"></i> Trang chủ </a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-user fa-fw"></i>Hệ thống<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <!--<li>
+        <a href="/Admin/GroupUser/Index">Nhóm người dùng</a>
+    </li>-->
+
+                            <li>
+                                <a href="/Admin/User/Index">Người dùng</a>
+                            </li>
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+                    
+                    <li>
+                        <a href="#"><i class="fa fa-tasks fa-fw"></i> Sản phẩm<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="/Admin/BookCategory/Index">Danh mục Sách</a>
+                            </li>
+                            <li>
+                                <a href="/Admin/Book/Index">Sách</a>
+                            </li>
+                            <li>
+                                <a href="/Admin/Producer/Index">NXB</a>
+                            </li>
+                            <li>
+                                <a href="/Admin/Author/Index">Tác giả</a>
+                            </li>
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-gear fa-fw"></i> Quản lý chung<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <!--<li>
+        <a href="/Admin/Menu/Index">Menu</a>
+    </li>
+    <li>
+        <a href="/Admin/Footer/Index">Footer</a>
+    </li>
+    <li>
+        <a href="/Admin/Slide/Index">Slide</a>
+    </li>
+                                <li>
+                                <a href="/Admin/Container/Index">Giỏ hàng</a>
+                            </li>-->
+
+                            <li>
+                                <a href="/Admin/Customer/Index">Khách hàng</a>
+                            </li>
+
+                            <li>
+                                <a href="/Admin/Feedback/Index">Phản hồi</a>
+                            </li>
+
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+
+            </ul>
+        </div>
+        <!-- /.sidebar-collapse -->
+    </div>
+    <!-- /.navbar-static-side -->
+</nav>
